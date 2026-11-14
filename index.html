@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Janelle Angeles</title>
+  <link rel="icon" type="image/png" href="images/tablogoheart.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAV
+  ============================================================ -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <span class="nav-logo">Janelle Rios Angeles</span>
+      <ul class="nav-links">
+        <li><a href="#letter">Letter</a></li>
+        <li><a href="#memories">Memories</a></li>
+        <li><a href="#reasons">Why</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#surprise">Surprise</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile-menu" id="mobile-menu">
+      <a href="#letter" class="mobile-link">Letter</a>
+      <a href="#memories" class="mobile-link">Memories</a>
+      <a href="#reasons" class="mobile-link">Why I Love You</a>
+      <a href="#timeline" class="mobile-link">Timeline</a>
+      <a href="#surprise" class="mobile-link">Surprise</a>
+    </div>
+  </nav>
+
+
+  <!-- ============================================================
+       HERO — Welcome / Landing
+  ============================================================ -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow fade-up">Happy Birthday Love Ko!</p>
+      <h1 class="hero-name fade-up">Janelle.</h1>
+      <p class="hero-subtitle fade-up">
+        Secret birthday gift ko na sobrang advance,<br />
+        a single page never felt like enough so I made it into a webpage.
+      </p>
+      <button class="btn-open fade-up" onclick="openGift()">
+        Open Your Gift
+      </button>
+    </div>
+    <div class="hero-deco">
+      <svg class="deco-line" viewBox="0 0 2 400" preserveAspectRatio="none">
+        <line x1="1" y1="0" x2="1" y2="400" stroke="currentColor" stroke-width="1" />
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       LETTER — Personal Love Letter
+  ============================================================ -->
+  <section id="letter" class="section reveal-section">
+    <div class="section-inner">
+      <div class="label-rule"><span>A letter</span></div>
+
+      <div class="letter-wrap">
+        <div class="letter-paper">
+          <p class="letter-date">
+            <!-- CUSTOMIZE: Replace with today's date or the date you write this -->
+            [November 14, 2026]
+          </p>
+
+          <p class="letter-salutation">Dear Janelle,</p>
+
+          <!-- ✏️  CUSTOMIZE: Replace everything between the <div class="letter-body"> tags
+               with your own love letter. Each <p> is a paragraph. -->
+          <div class="letter-body">
+            <p>
+              Hello love ko! Happy Happy birthday sayo hehe, Ito nalang yung mag sisilbing birthday gift ko para sayo
+              dahil sobrangggg layo mo sakin and I can't think of any other gifts dahil ayun nga ang layo moooo 😭😭
+              kahit sobrang tagal pa ng birthday mo as of the time I am typing this, gusto ko nang i-advance, hindi
+              dahil
+              para wala nakong gagawing gift sayo huh pero dahil, wala gusto ko lang and this is the least I can do for
+              you dahil
+              wala naman akong pwedeng i-gift sayo dahil wala naman ako dyan para mabigyan ka ng gift.
+            </p>
+            <p>
+              Ever since I met you, I don't know eh, My will to live got stronger kasi kung alam mo lang dati, like
+              parang wala akong ganang mabuhay eh, lagi akong
+              nag p-pray na sana ma deads na lang ako huhuhu pero ever since talaga na nag kita tayo, I just want to
+              keep on living nalang lalo na kung ikaw yung makakasama ko </p>
+            <p>
+              Soooo ayun, I pray to god for you to be always safe, healthy, at magkaroon ng mahaba at magandang buhay
+              even if hindi man ako yung makasama mo sa huli.
+            </p>
+            <p>
+              So again Happy birthday, sana hindi mo ito maagang binuksan or maagang na discover huhu. Anyway Lagi kang
+              maging safe dyan sa italy, lagi mag update, lagi mag pray, and
+              always be yourself lang. If meron ka mang mga problema na kinakaharap, lumapit ka lang kay god and he will
+              lend you a hand. This is from your beloved boyfriend Raeven Manalaysay Perez, 
+              I pray that one day magkasama ulit tayo, that's all for now. I love you!! Mwahhhh!!! 😘😘😘😘.
+            </p>
+          </div>
+
+          <p class="letter-sign">
+            Enjoy your 20th Birthday! <br>
+            From your one and only Love Love,
+            <!-- CUSTOMIZE: Replace with your name -->
+            Raeven Manalaysay Perez<br>
+            tinayp noong November 14, 2026 / 11:03PM
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       MEMORIES — Photo Gallery
+  ============================================================ -->
+  <section id="memories" class="section reveal-section">
+    <div class="section-inner">
+      <div class="label-rule"><span>Memories</span></div>
+      <p class="section-subtitle">
+        Every photo is a moment I never want to forget.
+      </p>
+
+      <!--
+        ✏️  HOW TO ADD PHOTOS:
+        1. Put your photos inside the /images/ folder.
+        2. For each photo, copy one <figure class="photo-card"> block below
+           and replace the placeholder src, alt, caption, and date.
+        3. Remove the placeholder cards once you have real photos.
+      -->
+      <div class="gallery-grid">
+
+        <!-- Photo card 1 — PLACEHOLDER -->
+              <figure class="photo-card">
+  <figcaption>
+    <span class="photo-caption">The moment i will never ever forget</span>
+            <span class="photo-date">November 13, 2026</span>
+
+  </figcaption>
+
+  <div class="photo-card-img">
+    <img src="images/pic1.jpg" alt="A description of the photo" />
+  </div>
+</figure>
+
+        <!-- Photo card 2 — PLACEHOLDER -->
+        <figure class="photo-card">
+          
+          <figcaption>
+            <span class="photo-caption">2 Year anniv (Advanced)</span>
+            <span class="photo-date">November 14, 2026</span>
+
+          </figcaption>
+          <div class="photo-card-img">
+              
+            
+            <img src="images/pic2.jpg" alt="A description of the photo" />
+          </div>  
+        </figure>
+
+
+
+        <!-- Photo card 3 — PLACEHOLDER -->
+          <figure class="photo-card">
+          
+          <figcaption>
+            <span class="photo-caption">1 Year and 6 months na silaaaa</span>
+            <span class="photo-date">May 22, 2026</span>
+
+          </figcaption>
+          <div class="photo-card-img">
+              
+            
+            <img src="images/pic5.jpeg" alt="A description of the photo" />
+          </div>  
+        </figure>
+
+        <!-- Photo card 4 — PLACEHOLDER -->
+        <figure class="photo-card">
+          
+          <figcaption>
+            <span class="photo-caption">12 months with you</span>
+            <span class="photo-date">November 23, 2025</span>
+
+          </figcaption>
+          <div class="photo-card-img">
+              
+            
+            <img src="images/pic4.jpeg" alt="A description of the photo" />
+          </div>  
+        </figure>
+
+        <!-- Photo card 5 — PLACEHOLDER -->
+         <figure class="photo-card">
+          
+          <figcaption>
+            <span class="photo-caption">6 months natin and bday ko huhu</span>
+            <span class="photo-date">May 23, 2025</span>
+
+          </figcaption>
+          <div class="photo-card-img">
+              
+            
+            <img src="images/pic6.jpg" alt="A description of the photo" />
+          </div>  
+        </figure>
+
+        <!-- Photo card 6 — PLACEHOLDER -->
+         <figure class="photo-card">
+          
+          <figcaption>
+            <span class="photo-caption">First monthsary pic</span>
+    <span class="photo-date">December 23, 2024</span>
+          </figcaption>
+          <div class="photo-card-img">
+              
+            
+            <img src="images/firstmonthsarypic.jpg" alt="A description of the photo" />
+          </div>  
+        </figure>
+
+      </div><!-- /.gallery-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       REASONS — Why I Love You
+  ============================================================ -->
+  <section id="reasons" class="section reveal-section">
+    <div class="section-inner">
+      <div class="label-rule"><span>Why I love you</span></div>
+      <p class="section-subtitle">
+        Not reasons — just truths.
+      </p>
+
+      <!--
+        ✏️  HOW TO CUSTOMIZE:
+        Replace the [Reason X] and [Description] text in each card below.
+        You can add more cards by copying a <div class="reason-card"> block.
+        You can remove cards you don't need.
+      -->
+      <div class="reasons-grid">
+
+        <div class="reason-card stagger">
+          <span class="reason-number">01</span>
+          <h3 class="reason-title">[Reason 1]</h3>
+          <p class="reason-desc">You're cute asf</p>
+        </div>
+
+        <div class="reason-card stagger">
+          <span class="reason-number">02</span>
+          <h3 class="reason-title">[Reason 2]</h3>
+          <p class="reason-desc">You're pretty asf</p>
+        </div>
+
+        <div class="reason-card stagger">
+          <span class="reason-number">03</span>
+          <h3 class="reason-title">[Reason 3]</h3>
+          <p class="reason-desc">You're short asf, which is perfect</p>
+        </div>
+
+        <div class="reason-card stagger">
+          <span class="reason-number">04</span>
+          <h3 class="reason-title">[Reason 4]</h3>
+          <p class="reason-desc">You showed me what true love feels like</p>
+        </div>
+
+        <div class="reason-card stagger">
+          <span class="reason-number">05</span>
+          <h3 class="reason-title">[Reason 5]</h3>
+          <p class="reason-desc">Everything about you is perfect</p>
+        </div>
+
+        <div class="reason-card stagger">
+          <span class="reason-number">06</span>
+          <h3 class="reason-title">[Reason 6]</h3>
+          <p class="reason-desc">God gave me you</p>
+        </div>
+
+      </div><!-- /.reasons-grid -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       TIMELINE — Our Story
+  ============================================================ -->
+  <section id="timeline" class="section reveal-section">
+    <div class="section-inner">
+      <div class="label-rule"><span>Our story</span></div>
+      <p class="section-subtitle">
+        The moments that made us.
+      </p>
+
+      <!--
+        ✏️  HOW TO CUSTOMIZE:
+        Replace each [date], [Event Title], and [description] with your real moments.
+        To add a photo: uncomment the <img> tag and point it to your image file.
+        To add more entries: copy a full <div class="timeline-entry"> block.
+        The left/right class alternates the layout on desktop.
+      -->
+      <div class="timeline">
+
+        <div class="timeline-entry left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-date">[July 22, 2024]</span>
+            <h3 class="tl-title">Unang pagtatagpo</h3>
+            <p class="tl-desc">Ano raw? Random add?</p>
+            <img src="images/chat1.png" />
+          </div>
+        </div>
+
+        <div class="timeline-entry right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-date">August 31, 2024</span>
+            <h3 class="tl-title">Unang nag pa bebe</h3>
+            <p class="tl-desc">Oh random add lang ba talaga?</p>
+            <img src="images/pabebe.jpg"  />
+          </div>
+        </div>
+
+        <div class="timeline-entry left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-date">January 22, 2024</span>
+            <h3 class="tl-title">Second monthsary na agad</h3>
+            <p class="tl-desc">Ang bilis haha</p>
+            <img src="images/2month.jpg" alt="[Alt text]" class="tl-photo" />
+          </div>
+        </div>
+
+        <div class="timeline-entry right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-date">November 23, 2025</span>
+            <h3 class="tl-title">Hala one year na sila</h3>
+            <p class="tl-desc">Grabeeeng long message yan😭</p>
+            <img src="images/anniv.jpg" alt="[Alt text]" class="tl-photo" />
+          </div>
+        </div>
+
+        <div class="timeline-entry left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-date">November 15, 2026 [1:15AM]</span>
+            <h3 class="tl-title">Today's date na haha</h3>
+            <p class="tl-desc">I think that's it for now. I wish you a happy life and happy birthday, I love you janelle ko!</p>
+            <img src="images/last.jpg" alt="[Alt text]" class="tl-photo" />
+          </div>
+        </div>
+
+      </div><!-- /.timeline -->
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SURPRISE — Final Section
+  ============================================================ -->
+  <section id="surprise" class="section reveal-section">
+    <div class="section-inner">
+      <div class="surprise-wrap">
+        <p class="surprise-lead">You've made it to the end.</p>
+        <h2 class="surprise-heading">Last na...</h2>
+
+        <button class="btn-surprise" id="revealBtn" onclick="revealSurprise()">
+          Open
+        </button>
+
+        <div class="surprise-message" id="surpriseMessage">
+          <!--
+            ✏️  CUSTOMIZE: Replace the paragraph below with your final message.
+            This is the emotional climax — make it count.
+          -->
+          <p class="surprise-text">
+            Again, I want to wish you a happy birthday, always take care of yourself, be the woman you are, reach into your dreams, even if I may not be there for you. I'm entrusting god to protect you at all times.
+          </p>
+          <p class="surprise-sign">
+            — From your one and only love love,<br>
+            Raeven Manalaysay Perez
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer id="footer">
+    <p>Made for Janelle, with everything I have.</p>
+  </footer>
+
+
+  <!-- Floating Music Player -->
+<button class="music-toggle" id="musicToggle" type="button" aria-label="Play music">
+  <span class="music-icon" id="musicIcon">▶</span>
+  <span id="musicLabel">Play music</span>
+</button>
+
+<audio id="bgMusic" loop>
+  <source src="audio/background.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+  
+</body>
+
+</html>
